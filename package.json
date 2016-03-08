@@ -1,0 +1,11 @@
+{
+  "name": "node-refresher",
+  "version": "1.0.0",
+  "description": "revise",
+  "main": "refresher.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
