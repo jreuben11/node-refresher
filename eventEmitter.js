@@ -21,4 +21,6 @@ eventEmitter.on('B', () => {
 // Fire the connection event
 eventEmitter.emit('A');
 
+eventEmitter.removeListener('A', aHandler);
+eventEmitter.emit('A'); // ignored
 console.log("Program Ended.");
