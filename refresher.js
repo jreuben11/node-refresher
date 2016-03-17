@@ -13,7 +13,7 @@
    //console.log(data.toString());
 
    // NON-BLOCKING:
-   fs.readFile('package.json', function(err, data) {
+   fs.readFile('input.txt', function(err, data) {
      if (err) return console.error(err);
      console.log("readfile finished");
    });
